@@ -1,3 +1,65 @@
 #tripsummary {
   display: none;
 }
+
+#newrequest {
+  background-image: linear-gradient(#00223e, #FFA17F);
+  border-radius: 4%;
+  padding: 200px;
+  width: 800px;
+  height: 600px;
+  /* float: left; */
+  text-align: center;
+}
+
+#newrequest h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#details label {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#form-control select {
+  background-color: #00223e;
+}
+
+#tripsummary {
+  background-image: linear-gradient(#00223E,#FFA17F);
+  border-radius: 4%;
+  padding: 200px;
+  /* border-width: thick; */
+  /* padding: 20px; */
+  /* margin: 5%; */
+  width: 800px;
+  height: 600px;
+  text-align: center;
+}
+
+#tripsummary h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#tripsummary p {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#tripsummary h2 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#new-destination label {
+  margin-bottom: 10%;
+}
+
+#new-current-location label {
+  margin-bottom: 10%;
+}

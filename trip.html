@@ -9,23 +9,23 @@
    </head>
    <body>
       <div class="container" id="newrequest">
-         <h1>Enter your location details below:</h1>
-         <div id="blanks">
-            <form>
+         <h1>Enter your details below:</h1>
+         <div id="trip">
+            <form id="details">
                <div class="form-group">
-                <label for="new-current-location">Current Location</label>
+                <label for="new-current-location" id="new-current-location" >Current Location</label>
                 <br>
                   <select class="form-control" id="current-location">
                     <option>CBD</option>
-                    <option>Langata</option>
+                    <option>Lang'ata</option>
                     <option>Machakos</option>
                     <option>Westlands</option>
-                    <option>Ngong</option>
+                    <option>Ngong'</option>
                   </select>
                </div>
                <br>
                <div class="form-group">
-                <label for="new-destination">Destination</label>
+                <label for="new-destination" id="new-destination" >Destination</label>
                 <br>
                   <select class="form-control" id="destination">
                     <option>Moringa School</option>
@@ -42,13 +42,14 @@
          </div>
       </div>
       <div id="tripsummary">
-         <h1>Your Trip Summary</h1>
-         <br>
-          <p id="summary">From <span id="current-location"></span> to <span id="destination"></span> using a <span id="new-mode-of-transport"></span></p>
-          <h2>Estimated Fare: </h2>
-          <h2>EStimated Time: </h2>
-          <h2>Stage: </h2>
-         <p>Have a safe trip. See you soon!</p>
+        <h1>Your Trip Summary</h1>
+        <br><br>
+        <p id="summary">From <span id="current-location"></span> to <span id="destination"></span> using a <span id="new-mode-of-transport"></span></p>
+        <h2>Estimated Fare: </h2>
+        <h2>Estimated Time: </h2>
+        <h2>Stage: </h2>
+        <br><br><br><br>
+        <p>Have a safe trip. See you soon!</p>
       </div>
    </body>
 </html>
