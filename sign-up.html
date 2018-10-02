@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fika Eazy Sign-up</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="sign-up">
+      <button class="fb-btn"><img class="fb" src="images/facebook.png">Sign up using facebook</button>
+      <button class="email-btn"><img class="email" src="images/email.png">Sign up using your e-mail</button>
+    <br/>
+    <form id="signup-form">
+      <p>First name:</p>
+        <input class="first" type="text"  placeholder="Enter your first name" required></input>
+      <br/>
+      <p>Surname:</p>
+        <input class="second" type="text" placeholder="Enter your surname" required></input><br/>
+      <br/>
+      <p>Other Name:<p>
+        <input class="other" type="text" placeholder="Optional"></input><br/>
+      <br/>
+      <p>E-mail Address</p>
+        <input class="email" type="email" placeholder="Enter your e-mail address" required></input></br>
+      <br/>
+      <p>Password</p>
+        <input id="password1" type="password" placeholder="At least 8 characters long" value="" required></input><br/>
+      <br/>
+      <p>Confirm your password:</p>
+        <input id="password2" type="password" placeholder="Same one as the one above" value="" required></input><br/>
+      <br/>
+        <input type="checkbox" onclick="show()">Show Password</input>
+      <br/>
+      <br/>
+      <button id="get-started" type="submit" class="signup-btn">Get started</button>
+    </form>
+    </div>
+  </body>
+</html>
