@@ -1,3 +1,4 @@
+//UNFINISHED TRIAL CODE:
 // function Trip (currentLocation, destination) {
 //     this.currentLocation = currentLocation;
 //     this.destination = destination;
@@ -35,7 +36,7 @@
 //     var taxi = {var stage, var fare, var duration}
 //   }
 //
-
+//
 
 $(document).ready(function() {
     $("#blanks form").submit(function(event) {
