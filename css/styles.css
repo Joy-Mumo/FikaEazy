@@ -1,0 +1,26 @@
+img.fb {
+  height:30px;
+  width:30px;
+}
+.fb-btn {
+  background-color: royalblue;
+  color:white;
+}
+img.email {
+  height:30px;
+  width:30px;
+}
+body {
+  border: solid;
+  border-radius: round;
+  border-width: thick;
+  width: 500px;
+  margin-left: 30%;
+  margin-right:30%
+}
+.sign-up {
+  text-align: center;
+}
+.log-in {
+  text-align: center;
+}
