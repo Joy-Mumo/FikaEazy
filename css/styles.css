@@ -46,7 +46,7 @@
 
 #tripsummary h1 {
     color: white;
-    font-size: 50px;
+    font-size: 46px;
 }
 
 #tripsummary p {
@@ -57,7 +57,13 @@
 
 #tripsummary h5 {
   color: black;
-  font-size: 26px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#tripsummary h3 {
+  color: black;
+  font-size: 32px;
   font-weight: bold;
 }
 
