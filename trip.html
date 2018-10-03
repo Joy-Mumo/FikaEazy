@@ -8,50 +8,55 @@
      <title>Fika Eazy</title>
    </head>
    <body>
-      <div class="container" id="newrequest">
-         <h1>Enter your details below:</h1>
-         <div id="trip">
-            <form id="details">
-               <div class="form-group">
-                <label for="new-current-location" id="new-current-location" >Current Location</label>
-                <br>
-                  <select class="form-control" id="current-location">
-                    <option>Hilton Hotel</option>
-                    <option>Lang'ata</option>
-                    <option>Machakos</option>
-                    <option>Westlands</option>
-                    <option>Ngong'</option>
-                  </select>
-               </div>
-               <br>
-               <div class="form-group">
-                <label for="new-destination" id="new-destination" >Destination</label>
-                <br>
-                  <select class="form-control" id="destination">
-                    <option>Moringa School</option>
-                    <option>Two Rivers Mall</option>
-                    <option>Nakumatt Galleria</option>
-                    <option>Juja</option>
-                    <option>Westlands</option>
-                  </select>
-               </div>
-               <br>
-               <br>
-               <button type="submit" class="btn">Trip Options</button>
-            </form>
+      <div class="container" >
+        <div class="row">
+          <div class="col-md-12 col-s-12 col-xs-12 newrequest" id="newrequest" >
+            <!-- <h1>Enter details:</h1> -->
+            <br><br>
+            <div id="trip">
+               <form id="details">
+                  <div class="form-group">
+                   <label for="new-current-location" id="new-current-location" >Current Location</label>
+                   <br><br>
+                     <select class="form-control" id="current-location">
+                       <option>Hilton Hotel</option>
+                       <option>Lang'ata</option>
+                       <option>Machakos</option>
+                       <option>Westlands</option>
+                       <option>Ngong'</option>
+                     </select>
+                  </div>
+                  <br><br>
+                  <div class="form-group">
+                   <label for="new-destination" id="new-destination" >Destination</label>
+                   <br><br>
+                     <select class="form-control" id="destination">
+                       <option>Moringa School</option>
+                       <option>Two Rivers Mall</option>
+                       <option>Nakumatt Galleria</option>
+                       <option>Juja</option>
+                       <option>Westlands</option>
+                     </select>
+                  </div>
+                  <br><br><br>
+                <button type="submit" class="btn">Trip Options</button>
+               </form>
+            </div>
          </div>
+        </div>
       </div>
+
       <div id="tripsummary">
         <h1>TRIP OPTIONS</h1>
-        <br>      
+        <br>
         <h4>MATATU </h4>
-        <p>Fare:   Time:   Stage: </p><br>
+        <p>Fare:  <span id="fare"> </span> Time: <span id="time"> </span>  Stage: <span id="stage"></span> </p><br>
         <h4>MOTORBIKE </h4>
-        <p>Fare:   Time:   Stage: </p><br>
+        <p>Fare:  <span id="fare"> </span> Time: <span id="time"> </span>  Stage: <span id="stage"></span> </p><br>
         <h4>TAXI </h4>
-        <p>Fare:   Time:   Stage: </p><br>
+        <p>Fare:  <span id="fare"> </span> Time: <span id="time"> </span>  Stage: <span id="stage"></span> </p><br>
         <h4>TRAIN </h4>
-        <p>Fare:   Time:   Stage: </p>
+        <p>Fare:  <span id="fare"> </span> Time: <span id="time"> </span>  Stage: <span id="stage"></span> </p><br>
         <br><br>
         <h3>Have a safe trip. See you soon!</h3>
       </div>
