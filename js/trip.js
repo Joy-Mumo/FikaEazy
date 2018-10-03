@@ -44,7 +44,7 @@ $(document).ready(function() {
 
       blanks.forEach(function(blank) {
         var userOption = $("option#" + blank).val();
-        $("." + blank).text(userOption);
+        $("#" + blank).text(userOption);
       });
 
       // $("p#summary").append(<li><span class='summary'> + newTrip.currentLocation + " " + newTrip.destination + </span></li>);
