@@ -57,7 +57,7 @@
           $("#" + detail).text(userOption);
         });
 
-        // $("p#summary").append(<li><span class='summary'> + newTrip.currentLocation + " " + newTrip.destination + </span></li>);
+        // $("p#summary").append(<p><span class='summary'> + newTrip.currentLocation + " " + newTrip.destination + </span></p>);
 
         $("#tripsummary").show();
         $("#newrequest").hide();
