@@ -1,11 +1,11 @@
 # **FIKAEAZY**
 
 ## AUTHORS:
-Mumo Joy Vivika
-Muhia Joy Wanjiru
-Stacy Chebet
-Theonilah Owali
-Jared Omari
+* Mumo Joy Vivika
+* Muhia Joy Wanjiru
+* Stacy Chebet
+* Theonilah Owali
+* Jared Omari
 
 ## PROJECT DESCRIPTION:
 FikaEazy allows commuters to input their travel information requests and in turn they receive information pertaining to their travel routes, specific means of transport and cost estimate to their various destinations.
