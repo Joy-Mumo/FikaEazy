@@ -1,4 +1,4 @@
-# **PIG DICE GAME**
+# **FIKAEAZY**
 
 ## AUTHORS:
 Mumo Joy Vivika
