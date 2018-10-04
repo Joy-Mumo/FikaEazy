@@ -1,26 +1,116 @@
-img.fb {
-  height:30px;
-  width:30px;
+.login-body {
+
+
 }
-.fb-btn {
-  background-color: royalblue;
-  color:white;
+.log-in {
+  background-color:#5F9EA0;
+
+
+  text-align: center;
+  border: solid;
+  border-style: dashed;
+  border-width: thick;
+  width: 500px;
+  margin-left: 30%;
+  margin-right:30%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
-img.email {
-  height:30px;
-  width:30px;
-}
-body {
+.signup-body {
+  background-size: cover;
   border: solid;
   border-radius: round;
   border-width: thick;
   width: 500px;
+  margin-top: 10%;
+  margin-bottom: 15%;
   margin-left: 30%;
-  margin-right:30%
+  margin-right:30%;
 }
 .sign-up {
   text-align: center;
+  background-color: white;
 }
-.log-in {
+.create {
+  font-size: 20px;
+  font-weight: bolder
+
+}
+
+/*About FikaEazy page*/
+body {
+  font-size: 20px;
+}
+.fika {
   text-align: center;
+  font-size: 70px;
+}
+.slogan {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  font-size: 40px;
+  color: grey;
+}
+.h1 {
+  font-size: 40px;
+}
+#heading1 {
+  font-family: 'Lobster', cursive;
+}
+#heading2 {
+  float:center;
+  font-family: 'Lobster', cursive;
+}
+#heading3 {
+  font-family: 'Lobster', cursive;
+}
+#w1{
+  width:400px;
+  background-color: #5F9EA0;
+}
+#w1 h2{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+#w1 p {
+  text-align: justify;
+  font-size: 22px
+}
+#w2 {
+  background-color: #5F9EA0;
+  width: 400px;
+  margin-left:30%;
+  margin right:30%;
+}
+#w2 h2{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+#w2 p {
+  text-align: center;
+}
+#w3 {
+  background-color: #5F9EA0;
+  width: 400px;
+  margin-left:60%;
+}
+#w3 h2{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+#w3 p {
+  text-align: center;
+}
+
+/*Navigation Bar*/
+.topnav {
+  background-color: steelblue;
+  overflow: hidden;
 }
