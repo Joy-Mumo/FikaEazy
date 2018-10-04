@@ -4,9 +4,9 @@
  */
 
 
-#tripsummary {
+/* #tripsummary {
   display: none;
-}
+} */
 
 #newrequest {
   /* background-color: rgba(0,0,0,.9); */
@@ -24,16 +24,16 @@
   transform: translate(85%,8%);
 }
 
-#newrequest h1 {
+/* #newrequest h1 {
   margin-top: 20%;
   color: white;
   font-size: 40px;
-}
+} */
 
 #details label {
   /* color: #5F9EA0; */
   color: white;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   /* text-shadow: 5px; */
 }
@@ -42,7 +42,21 @@
   color: #00223e;
 }
 
+
 #tripsummary {
+  background-image: linear-gradient(black, #5F9EA0, black);
+  /* background-color: black; */
+  opacity: 0.99;
+  border-radius: 4%;
+  padding: 50px;
+  width: 350px;
+  height: 100px;
+  /* float: left; */
+  text-align: center;
+  transform: translate(85%,8%);
+  }
+
+#tripsum {
   background-image: linear-gradient(black, #5F9EA0, black);
   opacity: 0.99;
   /* background-image: linear-gradient(#00223e, #FFA17F); */
@@ -50,11 +64,11 @@
   border-radius: 4%;
   padding: 50px;
   width: 350px;
-  height: 800px;
+  height: 200px;
     /* float: left; */
   text-align: center;
-  transform: translate(90%,8%);
-  margin-bottom: 8%;
+  transform: translate(90%,0%);
+  /* margin-bottom: 8%; */
 }
 
 
@@ -106,14 +120,20 @@ text-align: center; */
 
 #new-destination label {
   margin-bottom: 10%;
+  margin-top: 2%;
 }
 
 #new-current-location label {
   margin-bottom: 10%;
 }
-.newrequest{
-  background-color: blue;
+
+#new-transportmode label {
+  margin-bottom: 20%;
 }
+
+/* .newrequest {
+  background-color: blue;
+} */
 
 body {
   background-image: url(../images/animated.jpg);

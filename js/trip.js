@@ -38,20 +38,24 @@
 //
 //
 
-$(document).ready(function() {
-    $("#blanks form").submit(function(event) {
-      var blanks = ["new-current-location", "new-destination"];
+// $(document).ready(function() {
+//     $("#blanks form").submit(function(event) {
+//       var blanks = ["new-current-location", "new-destination"];
+//
+//       blanks.forEach(function(blank) {
+//         var userOption = $("option#" + blank).val();
+//         $("#" + blank).text(userOption);
+//       });
+//
+//       var currentLocation = new currentLocation ()
+//
 
-      blanks.forEach(function(blank) {
-        var userOption = $("option#" + blank).val();
-        $("#" + blank).text(userOption);
-      });
 
       // $("p#summary").append(<li><span class='summary'> + newTrip.currentLocation + " " + newTrip.destination + </span></li>);
-
-      $("#tripsummary").show();
-      $("#newrequest").hide();
-
-      event.preventDefault();
-    });
-  });
+  //
+  //     $("#tripsummary").show();
+  //     $("#newrequest").hide();
+  //
+  //     event.preventDefault();
+  //   });
+  // });

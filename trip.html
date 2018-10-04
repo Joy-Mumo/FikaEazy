@@ -21,7 +21,7 @@
                      <select class="form-control" id="current-location">
                        <option>Hilton Hotel</option>
                        <option>Lang'ata</option>
-                       <option>Machakos</option>
+                       <option>Syokimau</option>
                        <option>Westlands</option>
                        <option>Ngong'</option>
                      </select>
@@ -33,21 +33,46 @@
                      <select class="form-control" id="destination">
                        <option>Moringa School</option>
                        <option>Two Rivers Mall</option>
-                       <option>Nakumatt Galleria</option>
+                       <option>Galleria</option>
                        <option>Juja</option>
                        <option>Westlands</option>
                      </select>
                   </div>
                   <br><br><br>
-                <button type="submit" class="btn">Trip Options</button>
-               </form>
-            </div>
-         </div>
+                  <div class="form-group">
+                  <label for="new-transportmode" id="new-transportmode" >Mode of Transport</label>
+                  <br><br>
+                   <select class="form-control" id="transportmode">
+                       <option>Matatu</option>
+                       <option>Motorbike</option>
+                       <option>Taxi</option>
+                       <option>Train</option>
+                     </select>
+                  </div>
+                  <br><br><br>
+                  <button type="submit" class="btn" onclick="tripOptions()">Trip Options</button>
+                <!-- <button type="submit" class="btn">Trip Options</button> -->
+              </form>
+          </div>
         </div>
+      </div><br><br>
+        <!-- <div id="tripsummary"> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-s-8 col-xs-8 tripsummary" id="tripsummary">
+        <div id="result">
+          <p id="message"></p>
+        </div>
+       </div>
       </div>
+    </div>
+  </div>
 
-      <div id="tripsummary">
-        <h1>TRIP OPTIONS</h1>
+      <!-- </div> -->
+
+
+
+        <!-- <h1>TRIP OPTIONS</h1>
         <br>
         <h4>MATATU </h4>
         <p>Fare:  <span id="fare"> </span> Time: <span id="time"> </span>  Stage: <span id="stage"></span> </p><br>
@@ -58,8 +83,8 @@
         <h4>TRAIN </h4>
         <p>Fare:  <span id="fare"> </span> Time: <span id="time"> </span>  Stage: <span id="stage"></span> </p><br>
         <br><br>
-        <h3>Have a safe trip. See you soon!</h3>
-      </div>
+        <h3>Have a safe trip. See you soon!</h3> -->
+      <!-- </div> -->
    </body>
 </html>
 
