@@ -9,7 +9,6 @@ $(document).ready(function(){
      console.log("you have been logged")
    }
   else{
-  document.write ("Wrong password. Try again")
   console.log("wrong creds")
   }
 

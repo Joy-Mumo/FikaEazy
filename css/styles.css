@@ -111,6 +111,9 @@ body {
 
 /*Navigation Bar*/
 .topnav {
-  background-color: steelblue;
+  background-color:white;
   overflow: hidden;
+}
+.topnav a {
+  background-color:#5F9EA0;
 }
