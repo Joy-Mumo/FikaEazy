@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css”> 
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Fika Eazy</title>
+  <style>
+    body {
+      background-image: url("images/timelapse_nairobi.jpg")
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 col-s-12 col-xs-12 newrequest" id="newrequest">
+              <!-- <h1>Enter details:</h1> -->
+              <br><br>
+              <div id="trip">
+                  <form id="details">
+                      <div class="form-group">
+                          <label for="new-current-location" id="new-current-location">Current Location</label>
+                          <br><br>
+                          <select class="form-control" id="currentLocation">
+                              <option>Hilton Hotel</option>
+                              <option>Lang'ata</option>
+                              <option>Machakos</option>
+                              <option>Westlands</option>
+                              <option>Ngong'</option>
+                          </select>
+                      </div>
+                      <br><br>
+
+                      <br><br>
+                      <div class="form-group">
+                          <label for="new-destination" id="new-destination">Destination</label>
+                          <br><br>
+                          <select class="form-control" id="destination">
+                              <option>Moringa School</option>
+                              <option>Two Rivers Mall</option>
+                              <option>Nakumatt Galleria</option>
+                              <option>Juja</option>
+                              <option>Westlands</option>
+                          </select>
+                      </div>
+                      <br><br><br>
+                      <button type="submit" class="btn" onclick="tripOptions()">Trip Options</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <div id="result">
+          <p id="message">:</p>
+      </div>
+  </div>
+    
+  <footer id="footer">
+
+      <div class="wrap">
+      
+      <div class="left">
+       <h3><a href="http://xojaynee.tictail.com/about-us">About Us</a></h3>
+       <h3><a href="http://xojaynee.tictail.com/faq">Home</a></h3>
+       <h3><a href="http://xojaynee.tictail.com/contact-us">Services</a></h3>
+       <h3><a href="http://xojaynee.tictail.com/about-us">Our Team</a></h3>
+      </div>
+      
+      <div class="clear"></div>
+      
+      <div class="right">
+        <h3>Be the first to FikaEazy and get an exclusive promo code.</h3>
+        <form action="//tictail.us13.list-manage.com/subscribe/post?u=a39ec65a4cc079bc2af73cd52&amp;id=d3b88dcefc" method="post" id="right" name="right" class="validate" target="_blank" novalidate>
+        <div><input type="text" name="b_a39ec65a4cc079bc2af73cd52_d3b88dcefc" tabindex="-1" value=""></div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe_button">
+        </form>
+       </div>
+
+       <div class="clear"></div>
+        <p>Copyright.(FikaEazy) All Rights Reserved.</p>
+    </footer>      
+</body>
+
+</html>
