@@ -111,6 +111,9 @@ body {
 
 /*Navigation Bar*/
 .topnav {
-  background-color: steelblue;
+  background-color: black;
   overflow: hidden;
+}
+#t1{
+  text-align: center;
 }
