@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css”> 
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Fika Eazy</title>
+  <style>
+    body {
+      background-image: url("images/timelapse_nairobi.jpg")
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 col-s-12 col-xs-12 newrequest" id="newrequest">
+              <!-- <h1>Enter details:</h1> -->
+              <br><br>
+              <div id="trip">
+                  <form id="details">
+                      <div class="form-group">
+                          <label for="new-current-location" id="new-current-location">Current Location</label>
+                          <br><br>
+                          <select class="form-control" id="currentLocation">
+                              <option>Hilton Hotel</option>
+                              <option>Lang'ata</option>
+                              <option>Machakos</option>
+                              <option>Westlands</option>
+                              <option>Ngong'</option>
+                          </select>
+                      </div>
+                      <br><br>
+
+                      <br><br>
+                      <div class="form-group">
+                          <label for="new-destination" id="new-destination">Destination</label>
+                          <br><br>
+                          <select class="form-control" id="destination">
+                              <option>Moringa School</option>
+                              <option>Two Rivers Mall</option>
+                              <option>Nakumatt Galleria</option>
+                              <option>Juja</option>
+                              <option>Westlands</option>
+                          </select>
+                      </div>
+                      <br><br><br>
+                      <button type="submit" class="btn" onclick="tripOptions()">Trip Options</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <div id="result">
+          <p id="message">:</p>
+      </div>
+  </div>
+    
+       <footer>
+          <div id="footer-area">
+            <div id="container">
+              <div id="row">
+                <div id="col-md-4 col-sm-4" col-xs-12">
+                  <div id="footer-content">
+                   <div id="footer-header">
+                     <div id="footer-logo">
+                       <h2><span>Fika</span>Eazy</h2>
+                       <div id="footer-icons">
+                         <ul>
+                           <li>
+                             <a href="#"><i class="fa fa-facebook"></i></a>
+                             <a href="#"><i class="fa fa-google"></i></a>
+                             <a href="#"><i class="fa fa-twitter"></i></a>
+                             <a href="#"><i class="fa fa-instagram"></i></a>
+                           </li>
+                         </ul>
+                       </div>
+                     </div>
+                   </div> 
+                  </div>
+                </div>
+                 <div id="col-md-4 col-sm-4 col-xs-12">
+                   <div id="footer-content">
+                     <div id="footer-head">
+                       <div id="footer-contacts">
+                         <p><span>Tel:</span>+254 700300400</p>
+                         <p><span>Email:</span>info@fikaeazy.com</p>
+                         <p><span>Address:</span>020 53100</p>
+              </div>
+               <div class="wrapper">
+                  <input type="radio" id="r1" name="rg1">
+                  <label for="r1">    &#8902;</label>
+                  <input type="radio" id="r2" name="rg1">
+                  <label for="r2">    &#8902;</label>
+                  <input type="radio" id="r3" name="rg1">
+                  <label for="r3">    &#8902;</label>
+                  <input type="radio" id="r4" name="rg1">
+                  <label for="r4">    &#8902;</label>
+                  <input type="radio" id="r5" name="rg1">
+                  <label for="r5">    &#8902;</label>
+                 </div>
+            </div> 
+          </div>
+          <div id="footer-area-bottom">
+            <div id="container">
+                <div id="row">
+                    <div id="col-md-4 col-sm-4" col-xs-12">
+                      <div id="copyright text-centre">
+                        <p>&copy;Copyright<strong>FikaEazy</strong>.All Rights Reserved</p>
+                      </div>
+                  </div>
+              </div>      
+            </div>
+          </div>
+        </footer>
+</body>
+
+</html>
